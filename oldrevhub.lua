@@ -1,4 +1,6 @@
--- imagine skidding kid
+-- this is an old version, trust me it wont work.
+-- half of the script here even the libary doesnt work which is needed for the menu itself
+-- feel free to explore i guess
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
