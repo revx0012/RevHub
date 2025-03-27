@@ -92,7 +92,7 @@ local function createGUI()
     -- Function to handle the button click
     local function onLoadButtonClicked()
         -- Load the script using loadstring
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/rev-hub-roblox/main/revhub.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/revhub.lua'))()
     end
 
     -- Function to handle the minimize button click
