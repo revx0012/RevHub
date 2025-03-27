@@ -55,6 +55,10 @@ Section:NewButton("Chat Bypasser", "chat bypass",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/vadrfits-old.lua"))()
 end)
 
+Section:NewButton("Forsaken GUI (Key Req, see info)", "key for free users are Photon-Free-User also bad ui in mobile",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NittarPP/PhotonScript/refs/heads/main/Loading/Loading.lua"))()
+end)
+
 Section:NewButton("Infinite Zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
