@@ -94,6 +94,10 @@ SectionO:NewSlider("Speed", "Boost Your Speed!", 300, 16, function(v)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 
+SectionO:NewKeybind("Toggle", "Shows/Hides GUI when button has been pressed", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI()
+end)
+
 
 -- Arceus X Tab
 local Tab3 = Window:NewTab("Arceus X")
