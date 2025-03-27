@@ -124,7 +124,7 @@ prisonlife:NewButton("Prison Life Tiger Admin", "is it powerful?",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/prisonlife3.lua'))()
 end)
 
-prisonlife:NewButton(", "lol!",function()
+prisonlife:NewButton("PrisonBreaker V1.5", "lol!",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/prisonlife4.lua'))()
 end)
 
