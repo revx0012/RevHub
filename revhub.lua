@@ -59,16 +59,16 @@ Section:NewButton("Infinite Zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
-Section:NewButton("Ride Cart GUI", "yo chat is this real?",function()
+Section:NewButton("Ride Cart GUI", "lol cart go boom boom",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/ridecartgui.lua'))()
 end)
 
-Section:NewButton("Blox Fruit", "yo chat is this real?",function()
+Section:NewButton("Blox Fruit Script 1", "yo chat is this real?",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/BloxFruit.lua'))()
 end)
 
 
-Section:NewButton("Blox Fruit", "yo chat is this real?",function()
+Section:NewButton("Blox Fruit Script 2", "yo chat is this real?",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
 end)
 
