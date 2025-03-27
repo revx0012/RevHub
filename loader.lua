@@ -1,5 +1,4 @@
--- This thing doesn't work anyway, you can skid it i guess
--- this script doesnt work so pls dont think as it for something. if you want help me by tellling me the issue and i will fix. for now im lazy lol
+-- Loader for RevHub
 
 local player = game.Players.LocalPlayer
 local gui
