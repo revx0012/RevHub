@@ -202,5 +202,10 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAbl
 
 end)
 
+natural:NewButton("Block Ring (See info)", "Makes blocks spin around you like a ring which also can filng and destroy the map which is funny",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/blockfling.lua'))()
+
+end)
 
 
