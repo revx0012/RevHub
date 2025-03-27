@@ -271,7 +271,7 @@ task.wait(0.2)
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local DevTools = loadstring(game:HttpGet("https://robloxscripts123.000webhostapp.com/devtool.lua"))()
+local DevTools = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/devtool.lua"))()
 
 local Window = DevTools:Init({
     Name = "Vadrifts",
