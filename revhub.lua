@@ -51,8 +51,12 @@ Section:NewButton("VFly GUI", "vehicle fly gui",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/vflygui.lua'))()
 end)
 
-Section:NewButton("Chat Bypasser", "chat bypass",function()
+Section:NewButton("Chat Bypasser (Vadrfits, might not work)", "old chat bypass that doesnt work well",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/vadrfits-old.lua"))()
+end)
+
+Section:NewButton("Chat Bypasser (UC)", "good free chat bypass",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
 end)
 
 Section:NewButton("Forsaken GUI (Key Req, see info)", "key for free users are Photon-Free-User also bad ui in mobile",function()
