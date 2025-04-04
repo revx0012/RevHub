@@ -20,7 +20,7 @@ Text = "Have fun! Made by Ron144.",
 })
 
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/libary.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/library.lua"))()
 
 -- The hub configuration
 local Window = Library.CreateLib("Rev Hub", "GrapeTheme")
