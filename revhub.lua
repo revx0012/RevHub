@@ -67,22 +67,11 @@ Section:NewButton("RNG Droids", "has just 3 button like kill all stuff",function
     loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/RGDGui.lua"))()
 end)
 
-Section:NewButton("Infinite Zoom", "makes your camera zoom infinite",function()
-    game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
-end)
 
 Section:NewButton("Ride Cart GUI", "lol cart go boom boom",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/ridecartgui.lua'))()
 end)
 
-Section:NewButton("Blox Fruit Script 1", "yo chat is this real?",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/BloxFruit.lua'))()
-end)
-
-
-Section:NewButton("Blox Fruit Script 2", "yo chat is this real?",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
-end)
 
 
 Section:NewButton("Animations for R15/R6", "c'mon man it works!", function()
@@ -104,6 +93,10 @@ local SectionO = Tab2:NewSection("Others")
 
 SectionO:NewSlider("Speed", "Boost Your Speed!", 300, 16, function(v)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+SectionO:NewButton("Infinite Zoom", "makes your camera zoom infinite",function()
+    game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
 SectionO:NewKeybind("Toggle", "Shows/Hides GUI when button has been pressed", Enum.KeyCode.LeftAlt, function()
@@ -215,5 +208,17 @@ natural:NewButton("Block Ring (See info)", "Makes blocks spin around you like a 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/blockfling.lua'))()
 
 end)
+
+-- Blox Fruits 
+local Tab5 = Window:NewTab("Other Things")
+local SectionB = Tab2:NewSection("Keyless Scripts")
+
+SectionB:NewButton("Blox Fruit Script 1", "yo chat is this real?",function()  loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/BloxFruit.lua'))()
+end)
+
+
+SectionB:NewButton("Blox Fruit Script 2", "yo chat is this real?",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
+end)
+
 
 
