@@ -19,7 +19,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/
 
 > Helpful for mobile, you just load the script by pressing the button load. You can also minimize it (the loader) when needed
 > 
-> When done with the revhub, Close the GUI by the X. it should be easy to find
+> When done with the RevHub, Close the GUI by the X. it should be easy to find
 > 
 > When you want the script again, load from the Loader. Then thats it!
 
