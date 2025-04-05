@@ -1,7 +1,7 @@
 -- this was leaked in a github repo. good thing i got it but it doesnt work for me
 -- vadrfits was a trending script once. search em up you will know what happended.
--- they got caught logging ppl that were using their obfusted (sorry for misspell idk how to spell it)
--- man. i miss it now.
+-- they got caught logging ppl that were using their obfusted (sorry for misspell idk how to spell it) script
+-- man. i miss it now. lol
 
 
 local VadBypasses = {
@@ -277,7 +277,7 @@ task.wait(0.2)
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local DevTools = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/devtool.lua"))()
+local DevTools = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/devtool.lua"))()
 
 local Window = DevTools:Init({
     Name = "Vadrifts",
