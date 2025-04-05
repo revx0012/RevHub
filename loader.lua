@@ -9,7 +9,7 @@ local showButton
 local function createGUI()
     -- Function to check if the GUI already exists
     local function checkExistingGUI()
-        gui = game.CoreGui:FindFirstChild("Rev Hub Loader")
+        gui = game.CoreGui:FindFirstChild("RevHub Loader")
         if gui then
             -- The GUI already exists, show a notification
             local existingGuiNotification = Instance.new("Message")
@@ -91,7 +91,7 @@ local function createGUI()
     -- Function to handle the button click
     local function onLoadButtonClicked()
         -- Load the script using loadstring
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/revhub.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/revhub.lua'))()
     end
 
     -- Function to handle the minimize button click
