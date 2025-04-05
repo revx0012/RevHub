@@ -1,6 +1,6 @@
 # A continuation for my old [repository](https://github.com/revx0012/rev-hub-roblox) 
 
-### How to use revhub
+### How to use RevHub
 
 - For PC:
 
