@@ -1,7 +1,7 @@
 --Not obfuscated because I don't care
 --Works best with the rdite one Idk about the others
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/libary.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/libary.lua"))()
 local Window = Library.CreateLib("Cart Ride Into Rdite", "Ocean")
 
 --TABS
