@@ -19,6 +19,7 @@ Text = "Have fun! Made by Ron144.",
 
 })
 
+-- The Script itself
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/library.lua"))()
 
@@ -72,6 +73,10 @@ Section:NewButton("Ride Cart GUI", "lol cart go boom boom",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/ridecartgui.lua'))()
 end)
 
+
+Section:NewButton("Backdoor.exe (Discontinued)", "sad script",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/backdoor.lua'))()
+end)
 
 
 Section:NewButton("Animations for R15/R6", "c'mon man it works!", function()
@@ -190,34 +195,30 @@ local naturally = Window:NewTab("Natural Disaster")
 local natural = naturally:NewSection("Scripts (they may not work)")
 
 natural:NewButton("Script 1", "...",function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
-
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
 end)
 
 
 
 natural:NewButton("Script 2", "...",function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
-
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
 end)
 
 natural:NewButton("Block Ring (See info)", "Makes blocks spin around you like a ring which also can filng and destroy the map which is funny",function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/blockfling.lua'))()
-
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/blockfling.lua'))()
 end)
 
 -- Blox Fruits 
-local Tab5 = Window:NewTab("Other Things")
-local SectionB = Tab2:NewSection("Keyless Scripts")
+local Tab5 = Window:NewTab("Blox Fruit")
+local SectionB = Tab5:NewSection("Keyless Scripts")
 
-SectionB:NewButton("Blox Fruit Script 1", "yo chat is this real?",function()  loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/BloxFruit.lua'))()
+SectionB:NewButton("Blox Fruit Script 1", "yo chat is this real?",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/pastebin-stuff/refs/heads/main/BloxFruit.lua'))()
 end)
 
 
-SectionB:NewButton("Blox Fruit Script 2", "yo chat is this real?",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
+SectionB:NewButton("Blox Fruit Script 2", "yo chat is this real?",function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
 end)
 
 
