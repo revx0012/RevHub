@@ -206,13 +206,13 @@ SectionB:NewButton("Blox Fruit Script 2", "yo chat is this real?",function()
 end)
 
 -- Saber Showdown
-local Tab6 = Window:NewTab("Prison Life")
+local Tab6 = Window:NewTab("Saber Showdown")
 local saber = Tab6:NewSection("Scripts")
 
-SectionB:NewButton("Speed Swing & Auto Block", "Not bad",function() 
+saber:NewButton("Speed Swing & Auto Block", "Not bad",function() 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/speedswing-autoblock.txt",true))()
 end)
 
-SectionB:NewButton("Blox Fruit Script 2", "stamina, auto kills, god mode, in one button.",function() 
+saber:NewButton("Blox Fruit Script 2", "stamina, auto kills, god mode, in one button.",function() 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/infstam-godmode.txt",true))()
 end)
