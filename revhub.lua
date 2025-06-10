@@ -1,4 +1,4 @@
--- imagine skidding kid
+-- open source is better than closed source. now you know where my scripts come from haha
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 	Title = "wait...",  	
@@ -80,7 +80,7 @@ Section:NewButton("Anti Chat Logger", "yo chat is this real?",function()
 end)
 
 Section:NewButton("Sword Burst Gui", "hehehe",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/noobscripter38493/Swordburst-2/main/script.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/swordburst.txt'))()
 end)
 
 -- Other Things Tab
@@ -189,7 +189,7 @@ natural:NewButton("Script 2", "...",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
 end)
 
-natural:NewButton("Block Ring (See info)", "Makes blocks spin around you like a ring which also can fling and destroy the map which is funny",function()
+natural:NewButton("Block Ring (See info)", "Makes blocks spin around you like a ring which also can fling and destroy the map",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/blockfling.lua'))()
 end)
 
