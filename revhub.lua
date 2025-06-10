@@ -213,6 +213,6 @@ saber:NewButton("Speed Swing & Auto Block", "Not bad",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/speedswing-autoblock.txt",true))()
 end)
 
-saber:NewButton("Blox Fruit Script 2", "stamina, auto kills, god mode, in one button.",function() 
+saber:NewButton("Script 2", "stamina, auto kills, god mode, in one button.",function() 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/revx0012/RevHub/refs/heads/main/infstam-godmode.txt",true))()
 end)
